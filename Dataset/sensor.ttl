@@ -1,0 +1,120 @@
+{
+    "@context": [
+    "https://schema.org/",
+    {
+      "prov": "http://www.w3.org/ns/prov#"
+    }],
+    "@graph": [
+        {
+   "@id" : "http://hdl.handle.net/21.T11998/0000-001A-3905-F", 
+  "@type": ["IndividualProduct","CreativeWork"],
+  "name": "MySensor",
+  "version": "5",
+  "schemaVersion": "http://pdinst.schema.org/v1.1.",
+  "serialNumber": "2490",
+  "identifier":
+      {
+        "@id": "http://hdl.handle.net/21.T11998/0000-001A-3905-F",
+        "@type": "PropertyValue",
+        "propertyID": "The PID registry URL",
+        "value": "0000-001A-3905-F",
+        "url": "https://linkedsystems.uk/system/instance/TOOL0022_2490/current/"
+      },
+"manufacturer": [
+{
+"@type": "Organization",
+ "@id": "http://vocab.nerc.ac.uk/collection/L35/current/MAN0013/",
+ "name": "Sea-Bird Scientific",
+ "url": "http://www.seabird.org"
+},
+{
+"@type": "Organization",
+ "@id": "http://vocab.nerc.ac.uk/collection/L35/current/MAN0014/",
+ "name": "Valeport ",
+ "url": "http://www.Valeport.org"
+}
+],
+  "model": {
+      	"@type": "ProductModel",
+        "@id": "http://vocab.nerc.ac.uk/collection/L22/current/TOOL0022/",
+        "name": "Sea-Bird SBE 37 MicroCat IM-CT with optional pressure (submersible) CTD sensor series",
+        "url": "https://www.seabird.com/moored/sbe-37-sm-smp-smp-odo-microcat/family?productCategoryId=54627473786"
+      },
+   
+    "prov:wasRevisionOf": { 
+     "@type": ["IndividualProduct","CreativeWork"],
+    "@id": "http://hdl.handle.net/21.T11998/0000-001A-3905-F/4/" }
+},
+[{
+            "@type": "Organization",
+            "name": "BODC",
+            "@id" : "https://ror.org/03102fn17",
+          "identifier": {
+          "@id": "https://ror.org/03102fn17",
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/ror",
+          "url": "http://www.bodc.ac.uk",
+          "value": "03102fn17"
+          },
+        "owns": 
+         {
+          "@id":"http://hdl.handle.net/21.T11998/0000-001A-3905-F"
+          },
+        "sameAs":[ "https://edmo.seadatanet.org/report/2181", "https://vocab.nerc.ac.uk/collection/B75/current/ORG00585/"]
+                             
+},
+{
+            "@type": "Organization",
+            "name": "BODC",
+            "@id" : "https://ror.org/03102fn17",
+          "identifier": {
+          "@id": "https://ror.org/03102fn17",
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/ror",
+          "url": "http://www.bodc.ac.uk",
+          "value": "03102fn17"
+          },
+        "owns": 
+         {
+          "@id":"http://hdl.handle.net/21.T11998/0000-001A-3905-F"
+          },
+        "sameAs":[ "https://edmo.seadatanet.org/report/2181", "https://vocab.nerc.ac.uk/collection/B75/current/ORG00585/"]
+                             
+}],
+[{
+        "@type": "Person",
+         "@id" : "https://orcid.org/0000-0003-4163-9575",
+       "identifier": {
+          "@id": "https://orcid.org/0000-0003-4163-9575",
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/orcid",
+          "url": "https://orcid.org/0000-0003-4163-9575",
+          "value": "0000-0003-4163-9575"
+          },
+          "owns": 
+          {
+          "@id":"http://hdl.handle.net/21.T11998/0000-001A-3905-F"
+          },
+           "sameAs": "http://www.example.com/Lou"
+        },
+        {
+        "@type": "Person",
+         "@id" : "https://orcid.org/0000-0001-8042-6391",
+       "identifier": {
+          "@id": "https://orcid.org/0000-0001-8042-6391",
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/orcid",
+          "url": "https://orcid.org/0000-0001-8042-6391",
+          "value": "0000-0001-8042-6391"
+          },
+          "owns": 
+          {
+          "@id":"http://hdl.handle.net/21.T11998/0000-001A-3905-F"
+          },
+           "sameAs": "http://www.example.com/Alex"
+        }
+      
+           
+ ]       
+]
+}
